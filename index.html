@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random User Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Random User Generator</h1>
+      <div id="loader" class="loader"></div>
+      <div id="user-info" class="user-info hidden">
+        <img id="user-image" src="" alt="User Picture" />
+        <h2 id="user-name"></h2>
+        <p><strong>Email:</strong> <span id="user-email"></span></p>
+        <p><strong>Location:</strong> <span id="user-location"></span></p>
+        <button id="refresh-btn">Get Another User</button>
+      </div>
+    </div>
+  </body>
+</html>
